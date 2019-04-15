@@ -7,11 +7,24 @@
     android:orientation="vertical"
     tools:context="com.example.kedok.myapplication.Move">
 
+
+
     <TextView
+        android:id="@+id/txt_emailku"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Welcome Intent"
-        android:gravity="center"
-        android:textSize="40sp"/>
+        android:layout_height="wrap_content"
+        android:text="Emailku"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_passku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Passwordku"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"/>
 
 </LinearLayout>

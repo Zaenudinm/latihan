@@ -7,7 +7,14 @@
     android:orientation="vertical"
     tools:context="com.example.kedok.myapplication.MainActivity">
 
-   <EditText
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Login" />
+
+    <EditText
        android:id="@+id/email"
        android:layout_width="match_parent"
        android:layout_height="50dp"
@@ -19,11 +26,5 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="pass"/>
-    <Button
-        android:id="@+id/btn_login"
-        android:text="Login"
-        android:layout_width="match_parent"
-        android:layout_height="55dp"
-        android:background="@android:color/holo_orange_dark"/>
 
 </LinearLayout>
